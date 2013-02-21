@@ -3,9 +3,6 @@
   "description": "PhoneGap Facebook Connect Plugin",
   "author": "Dave Johnson",
   "contributors": {
-    "name": "Brian LeRoux",
-    "name": "Jesse MacFadyen",
-    "name": "Shazron Abdullah",
     "name": "Fil Maj"
   },
   "version": "0.1.0",
@@ -19,8 +16,11 @@
   "dependencies": {
     "facebook-js-sdk": "",
     "facebook-android-sdk": "",
-    "facebook-ios-sdk":""
+    "facebook-ios-sdk": ""
   },
   "development_dependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
 }
